@@ -166,41 +166,82 @@ table {
 .container {
   width: 1132px;
 }
+
 .grid_12 {
-  width: 1132px;
+  width: 100%;
 }
 .grid_11 {
-  width: 1036px;
+  width: 91.66666667%;
 }
 .grid_10 {
-  width: 940px;
+  width: 83.33333333%;
 }
 .grid_9 {
-  width: 844px;
+  width: 75%;
 }
 .grid_8 {
-  width: 748px;
+  width: 66.66666667%;
 }
 .grid_7 {
-  width: 652px;
+  width: 58.33333333%;
 }
 .grid_6 {
-  width: 556px;
+  width: 50%;
 }
 .grid_5 {
-  width: 460px;
+  width: 41.66666667%;
 }
 .grid_4 {
-  width: 364px;
+  width: 33.33333333%;
 }
 .grid_3 {
-  width: 268px;
+  width: 25%;
 }
 .grid_2 {
-  width: 172px;
+  width: 16.66666667%;
 }
 .grid_1 {
-  width: 76px;
+  width: 8.33333333%;
+}
+
+
+@media (min-width: 992px) {
+.grid_md_12 {
+  width: 100%;
+}
+.grid_md_11 {
+  width: 91.66666667%;
+}
+.grid_md_10 {
+  width: 83.33333333%;
+}
+.grid_md_9 {
+  width: 75%;
+}
+.grid_md_8 {
+  width: 66.66666667%;
+}
+.grid_md_7 {
+  width: 58.33333333%;
+}
+.grid_md_6 {
+  width: 50%;
+}
+.grid_md_5 {
+  width: 41.66666667%;
+}
+.grid_md_4 {
+  width: 33.33333333%;
+}
+.grid_md_3 {
+  width: 25%;
+}
+.grid_md_2 {
+  width: 16.66666667%;
+}
+.grid_md_1 {
+  width: 8.33333333%;
+}
 }
 .preffix_12 {
   margin-left: 1172px;
