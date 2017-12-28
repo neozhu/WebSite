@@ -41,7 +41,9 @@ a {
 a:hover{
 	text-decoration: underline;
 }
-
+p{
+	text-align: left;
+}
 h1{
 	display: inline-block;
 }
