@@ -7,6 +7,7 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/share.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
@@ -16,6 +17,9 @@
     <script src="js/superfish.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
     <script src="js/jquery.equalheights.js"></script>
+    <script src="js/qrcode.js"></script>
+  
+    <script src="js/jquery.share.min.js"></script>
     <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -309,7 +313,9 @@
                 &nbsp;&#124;&nbsp;
                 <a href="index-6.html"> Privacy Policy</a>
             </div>
+<div class="social-share"></div>
         </div>
+
         <!--{%FOOTER_LINK} -->
     </footer>
 
@@ -331,7 +337,11 @@
 <noscript>
     <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-<script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
-<!-- End Google Tag Manager -->
+<script>
+    $(function () {
+        $('.social-share').share();
+
+    })
+ </script>
 
 </html>
